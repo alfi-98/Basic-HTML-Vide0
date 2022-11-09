@@ -39,7 +39,7 @@ Basic-HTML-Video
         <button type="button" id="submit" class="submit-button">Click Me!</button>     
 </a>  
 ```
-### 3. Landing Page
+### 3. Landing Page Navbar:
 - At first we create the navbar for routing to different pages. So we include a ```<div>``` tag inside the ```<body>``` of our ```landing_page.html``` file.
 ```
   <div class="topnav">
@@ -99,7 +99,41 @@ h1{
     color: white;
   }
 ```
-  
+        
+💡 After applying the above code we can see that whenever we hover over the navbar options, the background-color and font color of that option gets changed. The code responsible for this change is:
+ ```
+  .topnav a:hover {
+    background-color: #1687ff;
+    color: rgb(255, 255, 255);
+  }
+ ```
+ 
+ ### 4. Showing video on the web page:
+   - To show video on the web page we need to use the HTML <video> tag.
+   - The html code for showing the video is:
+   ```
+    <div class="videos">
+        <video id="video1" width="400" controls>
+                <source src="../video/video1.mp4" type="video/mp4">  Your browser does not support HTML video.
+        </video>
+    </div>
+   ```
+   👉 - At first we need to save a video in the ```video``` folder of our project folder. 
+      - To style our <video> we have wrapped it inside a ```<div>``` tag which has a ```class``` attribute with value "videos". 
+      - The code for the above procedure:
+        ```
+        .videos{
+    
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ```
+   - Our landing page will look something like this:
+      <img width="1284" alt="Screenshot 2022-11-09 at 12 29 34 PM" src="https://user-images.githubusercontent.com/66726759/200900819-6e9f94a3-e85e-4c86-bb1f-713a25e400fb.png">
 
 
 
