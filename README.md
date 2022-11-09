@@ -33,8 +33,14 @@ Basic-HTML-Video
 ```
 
 ### 2. Linking the Login Page with landing page:
-- In the index page we have a submit ```<button>``` which is wrapped inside a ```<a>``` tag.
+- In the index.html file we have a submit ```<button>``` which is wrapped inside a ```<a>``` tag.
 - The <a> tag redirects the index.html to the landing_page.html
+```
+<a href="landing_page/landing_page.html"> 
+        <button type="button" id="submit" class="submit-button">Click Me!</button>     
+</a>  
+```
+
 
 
 
