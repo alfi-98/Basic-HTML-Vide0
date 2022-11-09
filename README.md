@@ -134,7 +134,31 @@ h1{
         ```
    - Our landing page will look something like this:
       <img width="1284" alt="Screenshot 2022-11-09 at 12 29 34 PM" src="https://user-images.githubusercontent.com/66726759/200900819-6e9f94a3-e85e-4c86-bb1f-713a25e400fb.png">
+   - To further add more featuers, we can place a button under the video which can pause and play the video.
+   - For this we need to create a ```vide_player.js``` javascript file in the ```video``` folder.
+   - For our landing page to recognize the javascript file, we need to add the below ```<script>``` tag in our ```landing_page.html``` file.
+        ```
+        <script src="../video/video_player.js"></script>
+        ```
+   - The code for the ```play/pause``` functionality is: 
+        ```
+        var myVideo = document.getElementById("video1"); 
 
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+
+        ```
+        💡 When the ```play/pause``` button is clicked in the landing page, then the ```playPause()``` function is called. The video element is saved in            the variable ```myVideo```. Then inside the ```playPause()``` function an if condition is executed to check if the video is paused or played.
+   
+   - Finally, after the above modifications our page will look like this:
+
+        
+![Screenshot 2022-11-09 at 11 44 27 PM](https://user-images.githubusercontent.com/66726759/200902495-89dd025c-e2fd-44a4-9502-e6108e4e7b31.png)
+        
 
 
 
