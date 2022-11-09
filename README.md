@@ -119,11 +119,11 @@ h1{
         </video>
     </div>
    ```
-   👉 - At first we need to save a video in the ```video``` folder of our project folder.
+   - At first we need to save a video in the ```video``` folder of our project folder.
         
-      - To style our ```<video>``` we have wrapped it inside a ```<div>``` tag which has a ```class``` attribute with value "videos". 
+   - To style our ```<video>``` we have wrapped it inside a ```<div>``` tag which has a ```class``` attribute with value "videos". 
         
-      - The code for the above procedure: 
+   - The code for the above procedure: 
         
         ```
         .videos{
