@@ -34,6 +34,7 @@ label{
     border-color: #dfdfdf;
     border-width: 1px; 
     border-style: solid;
+    margin-bottom: 10px;
     
 }  
 #password{  
@@ -45,13 +46,21 @@ label{
     border-color: #dfdfdf;
     border-width: 1px; 
     border-style: solid; 
+    margin-bottom: 10px;
 }  
-#submit{  
+.submit-button {
     width: 310px;  
     height: 30px;  
     border: none;  
-    border-radius: 17px;   
-    color: #1c1e1d;  
+    border-radius: 17px;
     background-color: rgba(245, 202, 143);
+    color: black;
+ 
+  }
+.submit-button:hover {
+    background-color: #ffffff;
+    color: rgba(245, 202, 143);
+    border: 2px solid rgba(245, 202, 143);
+  }
+
   
-}  

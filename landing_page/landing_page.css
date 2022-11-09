@@ -1,0 +1,92 @@
+
+@import url('https://fonts.cdnfonts.com/css/menlo');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 75, 248);
+  }
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(75, 75, 248);
+   
+  
+}
+
+
+.videos{
+    
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+ 
+}
+  .course-description{
+    font-family: 'Cousine', monospace;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 500px;
+    color: rgb(178, 178, 178);
+
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #1687ff;
+    color: rgb(255, 255, 255);
+  }
+  
+.topnav a.active {
+    background-color: #1687ff;
+    color: white;
+  }
+
+h1{
+
+    font-family: 'Menlo', sans-serif;
+    color: white;
+  }
+
+
+.button {
+
+  width: 120px;
+  height: 50px;
+  background-color:#070731;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+
+}
+
+
+  
