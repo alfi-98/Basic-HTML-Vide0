@@ -32,8 +32,9 @@ Basic-HTML-Video
         |----style.html
 ```
 ### 2. Linking the Login Page with landing page:
-- In the index.html file we have a submit ```<button>``` which is wrapped inside a ```<a>``` tag.
-- The <a> tag redirects the index.html to the landing_page.html
+- Firstly, we can copy the ```index.html``` and ```style.css``` files from the Basic-HTML-Login-Form repo. 
+- In the index.html file we have a submit ```<button>``` which is wrapped inside an ```<a>``` tag.
+- The <a> tag redirects the ```index.html``` to the ```landing_page.html```
 ```
 <a href="landing_page/landing_page.html"> 
         <button type="button" id="submit" class="submit-button">Click Me!</button>     
@@ -52,7 +53,7 @@ Basic-HTML-Video
 - The page will look something like this: 
 <img width="1284" alt="Screenshot 2022-11-09 at 11 52 30 AM" src="https://user-images.githubusercontent.com/66726759/200897088-f35e103b-da7c-4d87-91ae-38b091eaa377.png">
 
-- Now to style this page we will link the ```landing_page.css``` file with our ```landing_page.html``` file using the below code:
+- Now to style this page we will link the ```landing_page.css``` file with our ```landing_page.html``` file using the code below: <br>
  ```<link rel="stylesheet" href="landing_page.css">```
 - The css code for the styling of the navbar is given below:
 ```
@@ -109,7 +110,7 @@ h1{
  ```
  
  ### 4. Showing video on the web page:
-   - To show video on the web page we need to use the HTML <video> tag.
+   - To show video on the web page we need to use the HTML ```<video>``` tag.
    - The html code for showing the video is:
    ```
     <div class="videos">
@@ -118,9 +119,12 @@ h1{
         </video>
     </div>
    ```
-   👉 - At first we need to save a video in the ```video``` folder of our project folder. 
-      - To style our <video> we have wrapped it inside a ```<div>``` tag which has a ```class``` attribute with value "videos". 
-      - The code for the above procedure:
+   👉 - At first we need to save a video in the ```video``` folder of our project folder.
+        
+      - To style our ```<video>``` we have wrapped it inside a ```<div>``` tag which has a ```class``` attribute with value "videos". 
+        
+      - The code for the above procedure: 
+        
         ```
         .videos{
     
