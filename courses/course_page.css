@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Menlo', sans-serif;
+
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: #1687ff;
+    color: aliceblue;
+}
+
+.sidebar .links a{
+    display: block;
+    padding: 15px 10px;
+}
+
+.sidebar .links a:hover{
+    cursor: pointer;
+    background-color: #3696fd;
+}
